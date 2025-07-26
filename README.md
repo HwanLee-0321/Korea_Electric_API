@@ -1,6 +1,7 @@
 # Korea Electric Power Corporation (KEPCO) API Utilization Guide
 
 This project provides example Python code to collect data from the Korea Electric Power Corporation's (KEPCO) public data API and save it as a JSON file.
+[한국어 README0](https://github.com/HwanLee-0321/Korea_Electric_API/blob/main/README(KOR).md)
 
 ## Key Features
 
