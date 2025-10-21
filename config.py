@@ -8,5 +8,3 @@ API_KEY = "여기에 발급받은 API 키를 입력하세요"
 # 2. 기준 코드 데이터가 저장될 파일 이름
 CODE_FILENAME = "kepco_codes.json"
 
-# 3. 최종 데이터가 저장될 파일 이름
-DATA_FILENAME = "all_kepco_data.json"

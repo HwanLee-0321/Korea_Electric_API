@@ -1,30 +1,67 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f2f5 0%, #e0e5ec 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h1 {
-    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #FF6B6B, #FFE66D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Fallback for browsers that don't support background-clip */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 600px;
 }
 
 button {
-    padding: 10px 15px;
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
     cursor: pointer;
-    background-color: #fff;
+    background: linear-gradient(45deg, #4CAF50, #8BC34A);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
 }
 
 button:hover {
-    background-color: #eee;
+    background: linear-gradient(45deg, #8BC34A, #4CAF50);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 pre {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #333;
 }
