@@ -2,3 +2,10 @@
 
 # dependencies
 /__pycache__
+
+# Node.js
+node_modules
+npm-debug.log
+
+# Data
+all_kepco_data.json

@@ -1,0 +1,25 @@
+{
+  "name": "korea_electric_api",
+  "version": "1.0.0",
+  "description": "This project provides example Python code to collect data from the Korea Electric Power Corporation's (KEPCO) public data API and save it as a JSON file.",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HwanLee-0321/Korea_Electric_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HwanLee-0321/Korea_Electric_API/issues"
+  },
+  "homepage": "https://github.com/HwanLee-0321/Korea_Electric_API#readme",
+  "devDependencies": {
+    "electron": "^38.3.0"
+  }
+}
